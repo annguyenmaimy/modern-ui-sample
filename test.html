@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple UI</title>
+</head>
+<body>
+
+    <h1>Welcome!</h1>
+
+    <label>Enter your name:</label>
+    <input type="text" id="nameInput">
+
+    <button onclick="sayHello()">Submit</button>
+
+    <p id="result"></p>
+
+    <script>
+        function sayHello() {
+            const name = document.getElementById("nameInput").value;
+            document.getElementById("result").innerText = "Hello, " + name + "!";
+        }
+    </script>
+
+</body>
+</html>
