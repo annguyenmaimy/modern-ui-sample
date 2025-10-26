@@ -1,2 +1,1 @@
-# DataStructure
-data structure that i have learnt
+simple ui, html and python code
